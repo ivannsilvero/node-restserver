@@ -43,7 +43,7 @@ app.get('/usuario', verificaToken, (req, res) => {
                 });
             });
 
-        })
+        });
 
 });
 
@@ -101,7 +101,7 @@ app.put('/usuario/:id', verificaToken, function(req, res) {
         });
 
 
-    })
+    });
 
 
 });
